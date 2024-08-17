@@ -11,8 +11,8 @@
 ## Usage
 
 - #### Run WebApp
-  - `python3 server.py` (then access to `localhost:5000`)
+  - `python3 gui_digit_recognizer.py` (then access to `localhost:5000`)
   
 - #### Training Model
-  - Training on CPU: `python3 train.py`
-  - Training on GPU: `python3 train.py --use_gpu`
+  - Training on CPU: `train_digit_recognizer.py`
+  - Training on GPU: `train_digit_recognizer.py --use_gpu`
